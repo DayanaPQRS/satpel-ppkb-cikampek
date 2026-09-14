@@ -41,7 +41,7 @@
  <div class="relative w-full aspect-square max-h-[550px] lg:ml-auto">
  <!-- Main Image -->
  <div class="absolute inset-0 overflow-hidden shadow-2xl border-4 border-white z-10">
- <img src="https://images.unsplash.com/photo-1542044801-38d5e89d8137?ixlib=rb-4.0.3&auto=format&fit=crop&w=1000&q=80" alt="Ibu dan anak balita" class="w-full h-full object-cover">
+ <img src="{{ asset('images/ibu-balita.jpg') }}" alt="Ibu dan anak balita" class="w-full h-full object-cover">
  </div>
  
  <!-- Decorative floating cards -->
