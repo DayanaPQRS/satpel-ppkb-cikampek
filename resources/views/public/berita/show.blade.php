@@ -35,7 +35,7 @@
         </h1>
 
         <div class="w-full aspect-[21/9] relative border border-gray-200 shadow-sm">
-            <img src="https://images.unsplash.com/photo-1542044801-38d5e89d8137?ixlib=rb-4.0.3&auto=format&fit=crop&w=1200&q=80" alt="Bidan dan Kader" class="w-full h-full object-cover">
+            <img src="{{ asset('images/kader-kunjungan.jpg') }}" alt="Bidan dan Kader" class="w-full h-full object-cover">
             <div class="absolute bottom-0 left-0 right-0 p-3 bg-white/95 backdrop-blur border-t border-gray-200">
                 <p class="text-xs text-gray-600">Dokumentasi: Bidan desa bersama kader TPK Satpel PPKB Cikampek melakukan kunjungan.</p>
             </div>
@@ -60,11 +60,11 @@
 
         <div class="grid grid-cols-1 md:grid-cols-2 gap-6 my-10">
             <div class="border border-gray-200 shadow-sm p-2 bg-white">
-                <img src="https://images.unsplash.com/photo-1579684385127-1ef15d508118?ixlib=rb-4.0.3&auto=format&fit=crop&w=600&q=80" alt="Kader" class="w-full aspect-[4/3] object-cover border border-gray-100">
+                <img src="{{ asset('images/pelayanan-posyandu.jpg') }}" alt="Kader" class="w-full aspect-[4/3] object-cover border border-gray-100">
                 <p class="text-xs text-gray-500 mt-2 text-center">Kader TPK Dawuan Tengah</p>
             </div>
             <div class="border border-gray-200 shadow-sm p-2 bg-white">
-                <img src="https://images.unsplash.com/photo-1582213782179-e0d53f98f2ca?ixlib=rb-4.0.3&auto=format&fit=crop&w=600&q=80" alt="Forum" class="w-full aspect-[4/3] object-cover border border-gray-100">
+                <img src="{{ asset('images/ibu-balita.jpg') }}" alt="Forum" class="w-full aspect-[4/3] object-cover border border-gray-100">
                 <p class="text-xs text-gray-500 mt-2 text-center">Forum edukasi keluarga</p>
             </div>
         </div>

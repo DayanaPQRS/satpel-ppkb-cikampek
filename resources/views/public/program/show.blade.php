@@ -44,7 +44,7 @@
  
  <div class="w-full aspect-[4/3] relative">
  <!-- Sharp edges for image -->
- <img src="https://images.unsplash.com/photo-1542044801-38d5e89d8137?ixlib=rb-4.0.3&auto=format&fit=crop&w=1000&q=80" alt="Dokumentasi Pelayanan" class="absolute inset-0 w-full h-full object-cover shadow-lg border border-gray-100">
+ <img src="{{ asset('images/pelayanan-posyandu.jpg') }}" alt="Dokumentasi Pelayanan" class="absolute inset-0 w-full h-full object-cover shadow-lg border border-gray-100">
  <div class="absolute bottom-0 left-0 right-0 bg-white/95 backdrop-blur border-t border-gray-200 p-4 shadow-sm">
  <p class="text-xs text-gray-600 font-medium flex items-center gap-2">
  <span class="material-symbols-outlined text-[16px] text-gray-400">photo_camera</span>
@@ -104,7 +104,7 @@
  </div>
  <div class="w-full aspect-[4/3]">
  <!-- Sharp edges -->
- <img src="https://images.unsplash.com/photo-1579684385127-1ef15d508118?ixlib=rb-4.0.3&auto=format&fit=crop&w=1000&q=80" alt="Kunjungan Lapangan" class="w-full h-full object-cover shadow-lg border border-gray-100">
+ <img src="{{ asset('images/kader-kunjungan.jpg') }}" alt="Kunjungan Lapangan" class="w-full h-full object-cover shadow-lg border border-gray-100">
  </div>
  </div>
  </div>

@@ -49,7 +49,7 @@
         </div>
 
         <div class="w-full aspect-[21/9] relative border border-gray-200 shadow-sm">
-            <img src="https://images.unsplash.com/photo-1542044801-38d5e89d8137?ixlib=rb-4.0.3&auto=format&fit=crop&w=1200&q=80" alt="Kegiatan" class="w-full h-full object-cover">
+            <img src="{{ asset('images/pelayanan-posyandu.jpg') }}" alt="Kegiatan" class="w-full h-full object-cover">
         </div>
     </header>
 

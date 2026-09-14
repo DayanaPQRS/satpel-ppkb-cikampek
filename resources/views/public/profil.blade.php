@@ -39,8 +39,8 @@
  </div>
 
  <!-- Image Composition -->
- <div class="relative w-full h-[500px] lg:h-[600px] overflow-hidden shadow-xl">
- <img src="https://images.unsplash.com/photo-1511895426328-dc8714191300?ixlib=rb-4.0.3&auto=format&fit=crop&w=1200&q=80" alt="Keluarga bahagia dan sehat" class="absolute inset-0 w-full h-full object-cover">
+    <div class="relative w-full h-[500px] lg:h-[600px] overflow-hidden shadow-xl">
+        <img src="{{ asset('images/ibu-balita.jpg') }}" alt="Keluarga bahagia dan sehat" class="absolute inset-0 w-full h-full object-cover">
  <div class="absolute inset-0 bg-gradient-to-t from-gray-900/60 via-transparent to-transparent"></div>
  <div class="absolute bottom-6 left-6 right-6 p-5 bg-white/95 backdrop-blur-sm shadow-lg">
  <div class="flex items-center gap-4">
