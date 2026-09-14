@@ -4,6 +4,8 @@
  <meta charset="utf-8"/>
  <meta content="width=device-width, initial-scale=1.0" name="viewport"/>
  <title>Kader Dashboard - Satpel PPKB Cikampek</title>
+ <link rel="icon" type="image/png" href="{{ asset('images/logo.png') }}">
+ <link rel="shortcut icon" href="{{ asset('favicon.ico') }}">
  <link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@24,400,0,0" rel="stylesheet"/>
  <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:ital,wght@0,200..800;1,200..800&display=swap" rel="stylesheet"/>
  @vite(['resources/css/app.css', 'resources/js/app.js'])
